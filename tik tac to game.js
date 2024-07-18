@@ -69,7 +69,7 @@ userbtn.forEach((element) => {
         winchecker();
     });
 });
-//Actionlisnter here
+//this is method for addeventlistner
 newgame.addEventListener("click", () => {
     location.reload();
 });
