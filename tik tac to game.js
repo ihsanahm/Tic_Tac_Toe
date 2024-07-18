@@ -11,6 +11,7 @@ const DisableButtons = () => {
     });
 };
 
+//this function is for winning
 const winFunction = (letter) => {
     DisableButtons();
     msgOfgame.innerText = `${letter} wins! 🎉🎉🥳🥳
