@@ -3,7 +3,8 @@ let newgame = document.getElementById("new-game");
 let restartgame = document.getElementById("restart");
 let msgOfgame = document.getElementById("message");
 let msgContainer = document.querySelector(".message-container");
-
+ 
+//this method is for disabling the buttons
 const DisableButtons = () => {
     userbtn.forEach((element) => {
         element.disabled = true;
